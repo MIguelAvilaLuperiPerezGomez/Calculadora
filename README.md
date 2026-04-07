@@ -1,13 +1,13 @@
-import java.util.Scanner;
+#Calculadora Java
+	
+	import java.util.Scanner;
 
-
-
-public class Main {
-    public static void limparTela() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
-    }
-    public static void main(String[] args) {
+	public class Main {
+	    public static void limparTela() {
+	        System.out.print("\033[H\033[2J");
+	        System.out.flush();
+	    }
+	    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         Calculos calc = new Calculos();
@@ -49,22 +49,25 @@ public class Main {
         }
     }
 }
-public class Calculos {
-    public  void Soma(double a, double b){
-        System.out.println(a + b);
-    }
-    public void Sub(double a, double b){
-        System.out.println(a - b);
-    }
-    public void Mut(double a, double b){
-        System.out.println(a * b);
-    }
-    public void Div(double a, double b){
-        System.out.println(a / b);
-    }
 
 
-    public Calculos(){
+
+
+	   public class Calculos {
+	    public  void Soma(double a, double b){
+	        System.out.println(a + b);
+	    }
+	    public void Sub(double a, double b){
+	        System.out.println(a - b);
+	    }
+	    public void Mut(double a, double b){
+	        System.out.println(a * b);
+	    }
+	    public void Div(double a, double b){
+	        System.out.println(a / b);
+	    }
+	
+	 public Calculos(){
 
     }
 }
