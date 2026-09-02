@@ -1,1 +1,1 @@
-#Calculadora Simples Usando Java Sem Uso de IA.
+#Calculadora Simples Usando Java Sem Uso de IA
